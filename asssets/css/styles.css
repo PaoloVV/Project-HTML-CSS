@@ -1,0 +1,36 @@
+body{
+    background-image: url(../images/sfondo-bianco.jpg);
+    background-size: cover;
+}
+
+.mask{
+    background-image: url(../images/sfondo-blu-medium.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100vh;
+}
+
+.myName{
+    font-size: 50px;
+    opacity: 0;
+}
+
+.myTitle{
+    font-size: 35px;
+}
+
+.navbar{
+    border-bottom: 3px solid blue;
+    background-color: #fff;
+    transition: background-color 3s;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar_scrolled{
+    opacity: 0.85;
+    background: linear-gradient(to right, rgba(0, 0, 255, .9), rgba(0, 255, 0, .9));
+    transition: background 3s;
+}
